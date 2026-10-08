@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="sq">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4fbff">
+    <meta
+      name="description"
+      content="MindCare ofron informacion dhe këshilla të thjeshta për shëndetin mendor, kujdesin ndaj vetes dhe mirëqenien emocionale."
+    >
+    <title>MindCare — Kujdesu për mendjen tënde</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Kalo te përmbajtja kryesore</a>
+
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Navigimi kryesor">
+        <a class="brand" href="#home" aria-label="MindCare, faqja kryesore">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none">
+              <path d="M20 33S6 25.2 6 14.7C6 9.6 9.5 7 13.2 7c3 0 5.1 1.8 6.8 4.3C21.7 8.8 23.8 7 26.8 7 30.5 7 34 9.6 34 14.7 34 25.2 20 33 20 33Z" fill="currentColor"/>
+              <path d="M13 19.5h4l2-4 3.2 9 2.1-5H28" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span>Mind<span>Care</span></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Hap menunë" aria-expanded="false" aria-controls="primary-menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-menu" id="primary-menu">
+          <a class="nav-link" href="#home">Kryefaqja</a>
+          <a class="nav-link" href="#shendeti">Shëndeti mendor</a>
+          <a class="nav-link" href="#keshilla">Këshilla</a>
+          <a class="nav-link" href="#burime">Burime</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="home">
+        <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+        <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow"><span class="eyebrow-dot"></span> Një hap i vogël drejt mirëqenies</span>
+            <h1>Kujdesu për<br>mendjen <span>tënde.</span></h1>
+            <p class="hero-lead">Shëndeti mendor është po aq i rëndësishëm sa shëndeti fizik. Jepi vetes kohë, mirëkuptim dhe kujdes.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#shendeti">Mëso më shumë <span aria-hidden="true">→</span></a>
+              <a class="text-link" href="#ndjesia"><span class="play-icon" aria-hidden="true">▶</span> Bëj një pauzë</a>
+            </div>
+            <div class="hero-note">
+              <span class="note-icon" aria-hidden="true">✦</span>
+              <span>Je i/e rëndësishëm/me. Edhe kujdesi për veten ka rëndësi.</span>
+            </div>
+          </div>
+
+          <div class="hero-art-wrap reveal" aria-label="Ilustrim abstrakt i një personi në qetësi">
+            <div class="art-orbit orbit-one" aria-hidden="true"></div>
+            <div class="art-orbit orbit-two" aria-hidden="true"></div>
+            <svg class="hero-art" viewBox="0 0 560 500" role="img" aria-labelledby="hero-art-title hero-art-desc">
+              <title id="hero-art-title">Një moment qetësie</title>
+              <desc id="hero-art-desc">Ilustrim me ngjyra të buta i një personi që pushon mes gjetheve dhe formave të natyrës.</desc>
+              <defs>
+                <linearGradient id="blob" x1="85" y1="50" x2="455" y2="410" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#DFF5FF"/>
+                  <stop offset="1" stop-color="#BCE7F7"/>
+                </linearGradient>
+                <linearGradient id="shirt" x1="229" y1="253" x2="346" y2="392" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#6CB7D9"/>
+                  <stop offset="1" stop-color="#3F8FB9"/>
+                </linearGradient>
+                <filter id="soft-shadow" x="111" y="74" width="344" height="362" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                  <feGaussianBlur stdDeviation="14"/>
+                </filter>
+              </defs>
+              <ellipse cx="284" cy="402" rx="156" ry="19" fill="#A7D9EC" opacity=".35" filter="url(#soft-shadow)"/>
+              <path d="M281 47c99-1 179 63 185 157 6 95-65 184-161 194-95 10-218-49-231-150C61 147 149 49 281 47Z" fill="url(#blob)"/>
+              <circle cx="420" cy="124" r="23" fill="#fff" opacity=".75"/>
+              <circle cx="127" cy="212" r="11" fill="#fff" opacity=".9"/>
+              <path d="M101 373c28-25 44-58 43-101M458 333c-21-22-31-48-29-78" stroke="#83C5DF" stroke-width="3" stroke-linecap="round"/>
+              <path d="M102 273c-12-17-9-37 5-51 14 17 14 37-5 51ZM147 316c-20-5-30-21-27-41 21 6 31 20 27 41ZM449 253c20-8 29-25 23-44-20 8-29 24-23 44ZM424 303c17-12 21-32 11-49-17 13-21 31-11 49Z" fill="#9FD6E9"/>
+              <path d="M242 221c0-32 18-55 47-55 29 0 47 23 47 55v20h-94v-20Z" fill="#234A63"/>
+              <path d="M253 206c6-20 20-31 36-31 19 0 32 11 39 31-13 6-25 8-38 8-12 0-25-2-37-8Z" fill="#315E75"/>
+              <path d="M263 221h53v48c0 15-12 27-27 27s-26-12-26-27v-48Z" fill="#F1C8AF"/>
+              <path d="M240 255c12 4 27 6 43 6 20 0 39-4 54-11 34 19 55 57 55 105v23H188v-23c0-43 18-79 52-100Z" fill="url(#shirt)"/>
+              <path d="M252 267c12 12 26 19 41 19 16 0 31-8 42-20M254 255c-7 13-17 24-30 32M331 253c8 15 19 26 34 33" fill="none" stroke="#DFF5FF" stroke-width="5" stroke-linecap="round" opacity=".85"/>
+              <path d="M192 372h201" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".82"/>
+              <path d="M214 391h158" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+              <path d="M229 147c5-8 12-11 20-10M355 188c5-7 12-9 19-8" stroke="#5BAED6" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+              <path d="m384 105 4 9 9 4-9 4-4 9-4-9-9-4 9-4 4-9ZM174 112l3 6 6 3-6 3-3 6-3-6-6-3 6-3 3-6Z" fill="#fff"/>
+            </svg>
+            <div class="art-caption"><span class="caption-sparkle" aria-hidden="true">✦</span><span>Ngadalë. Me butësi. Në ritmin tënd.</span></div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#shendeti" aria-label="Shko te seksioni Shëndeti mendor"><span></span></a>
+      </section>
+
+      <section class="section intro-section" id="shendeti">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Ta kuptojmë së bashku</span>
+            <h2>Çfarë është shëndeti <span>mendor?</span></h2>
+            <p>Është pjesë e shëndetit tonë të përgjithshëm dhe ndikon në mënyrën si përjetojmë jetën, çdo ditë.</p>
+          </div>
+          <div class="info-grid">
+            <article class="info-card reveal">
+              <div class="card-icon icon-blue" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 3a8 8 0 0 0-4.8 14.4c.8.6 1.3 1.5 1.3 2.6h7c0-1.1.5-2 1.3-2.6A8 8 0 0 0 12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 20h6m-5 2h4M12 7v5l3 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+              </div>
+              <span class="card-kicker">01 / Kuptimi</span>
+              <h3>Më shumë se mungesë stresi</h3>
+              <p>Shëndeti mendor përfshin mirëqenien emocionale, psikologjike dhe shoqërore — mënyrën si mendojmë, ndiejmë dhe lidhemi me të tjerët.</p>
+            </article>
+            <article class="info-card reveal">
+              <div class="card-icon icon-peach" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-8-4.4-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 6.6-8 11-8 11Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8 12h2l1.2-2.3L13 15l1.2-3H16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <span class="card-kicker">02 / Rëndësia</span>
+              <h3>Një pjesë e shëndetit tënd</h3>
+              <p>Mirëqenia mendore ndihmon në përballimin e sfidave, njohjen e pikave të forta dhe krijimin e marrëdhënieve domethënëse.</p>
+            </article>
+            <article class="info-card reveal">
+              <div class="card-icon icon-lilac" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 7h8M8 11h6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+              </div>
+              <span class="card-kicker">03 / Përditshmëria</span>
+              <h3>Ndikon në ditët e zakonshme</h3>
+              <p>Mund të ndikojë në përqendrim, gjumë, vendimmarrje dhe mënyrën si i përballojmë punën, shkollën e jetën e përditshme.</p>
+            </article>
+            <article class="info-card reveal">
+              <div class="card-icon icon-green" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 21v-8m0 3c-4 0-7-2.5-7-6 4.2 0 7 2.1 7 6Zm0-4c0-4 2.7-7 7-7 0 4.5-2.7 7-7 7Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <span class="card-kicker">04 / Mbështetja</span>
+              <h3>Të kërkosh ndihmë është guxim</h3>
+              <p>Nuk ke pse t’i përballosh gjithçka vetëm. Të flasësh me dikë të besuar ose me profesionist është një hap i vlefshëm, jo shenjë dobësie.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section selfcare-section" id="keshilla">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Zakone të vogla, kujdes i madh</span>
+            <h2>Kujdesu për <span>veten.</span></h2>
+            <p>Nuk duhet t’i bësh të gjitha menjëherë. Zgjidh një gjë të vogël që mund ta bësh sot.</p>
+          </div>
+          <div class="selfcare-grid">
+            <article class="care-card reveal"><span class="care-emoji" aria-hidden="true">🧘</span><span class="care-number">01</span><h3>Merr kohë për veten</h3><p>Gjej pak hapësirë për t’u çlodhur dhe për të bërë diçka që të pëlqen.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
+            <article class="care-card reveal"><span class="care-emoji" aria-hidden="true">😴</span><span class="care-number">02</span><h3>Fli mjaftueshëm</h3><p>Një rutinë e qetë para gjumit i jep mendjes kohë të pushojë.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
+            <article class="care-card reveal"><span class="care-emoji" aria-hidden="true">🥗</span><span class="care-number">03</span><h3>Ushqehu me kujdes</h3><p>Zgjidh vakte të larmishme dhe kujtohu të pish ujë gjatë ditës.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
+            <article class="care-card reveal"><span class="care-emoji" aria-hidden="true">🚶</span><span class="care-number">04</span><h3>Lëviz në mënyrën tënde</h3><p>Një shëtitje e shkurtër ose shtrirje e lehtë mund të të bëjë mirë.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
+            <article class="care-card reveal"><span class="care-emoji" aria-hidden="true">💬</span><span class="care-number">05</span><h3>Fol me dikë që beson</h3><p>Ndarja e asaj që ndien mund të të ndihmojë të mos ndihesh vetëm.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
+            <article class="care-card reveal"><span class="care-emoji" aria-hidden="true">🌿</span><span class="care-number">06</span><h3>Kaloi kohë në natyrë</h3><p>Dil pak jashtë dhe vëre re ajrin, dritën e gjelbërimin përreth.</p><span class="card-arrow" aria-hidden="true">↗</span></article>
+          </div>
+          <p class="gentle-reminder reveal"><span aria-hidden="true">✦</span> Kujdesi për veten nuk është egoizëm. Është një nevojë.</p>
+        </div>
+      </section>
+
+      <section class="section facts-section" id="kuriozitete">
+        <div class="container facts-layout">
+          <div class="facts-intro reveal">
+            <span class="eyebrow">Disa gjëra për t’i mbajtur mend</span>
+            <h2>Njohuria sjell <span>mirëkuptim.</span></h2>
+            <p>Të flasim hapur për shëndetin mendor ndihmon në krijimin e një mjedisi më të kujdesshëm për të gjithë.</p>
+            <a class="text-link" href="#burime">Eksploro burimet <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="fact-list">
+            <article class="fact-item reveal"><span class="fact-index">01</span><span class="fact-mark" aria-hidden="true">↗</span><p>Shëndeti mendor ndikon në mënyrën se si <strong>mendojmë, ndihemi dhe veprojmë.</strong></p></article>
+            <article class="fact-item reveal"><span class="fact-index">02</span><span class="fact-mark" aria-hidden="true">♡</span><p>Të flasësh për emocionet mund të të ndihmojë të <strong>ndihesh i/e dëgjuar dhe i/e mbështetur.</strong></p></article>
+            <article class="fact-item reveal"><span class="fact-index">03</span><span class="fact-mark" aria-hidden="true">✦</span><p>Kërkimi i ndihmës është një <strong>shenjë force dhe kujdesi për veten.</strong></p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section mood-section" id="ndjesia">
+        <div class="container">
+          <div class="mood-panel reveal">
+            <div class="mood-decoration mood-decoration-one" aria-hidden="true"></div>
+            <div class="mood-decoration mood-decoration-two" aria-hidden="true"></div>
+            <span class="eyebrow">Një çast për veten</span>
+            <h2>Si po ndihesh <span>sot?</span></h2>
+            <p class="mood-description">Nuk ka përgjigje të drejtë apo të gabuar. Zgjidh atë që të përshtatet tani.</p>
+            <div class="mood-options" role="group" aria-label="Zgjidh si po ndihesh">
+              <button class="mood-option" type="button" data-mood="shume-mire" aria-pressed="false"><span class="mood-emoji" aria-hidden="true">😊</span><span>Shumë mirë</span></button>
+              <button class="mood-option" type="button" data-mood="mire" aria-pressed="false"><span class="mood-emoji" aria-hidden="true">🙂</span><span>Mirë</span></button>
+              <button class="mood-option" type="button" data-mood="neutral" aria-pressed="false"><span class="mood-emoji" aria-hidden="true">😐</span><span>Neutral</span></button>
+              <button class="mood-option" type="button" data-mood="trishtuar" aria-pressed="false"><span class="mood-emoji" aria-hidden="true">😔</span><span>Trishtuar</span></button>
+              <button class="mood-option" type="button" data-mood="stresuar" aria-pressed="false"><span class="mood-emoji" aria-hidden="true">😟</span><span>I/e stresuar</span></button>
+            </div>
+            <p class="mood-message" id="mood-message" role="status" aria-live="polite"></p>
+            <p class="mood-footnote">Ky ushtrim është vetëm për reflektim dhe nuk përbën vlerësim apo diagnozë.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section calm-section">
+        <div class="container calm-layout">
+          <div class="calm-heading reveal">
+            <span class="eyebrow">Mund t’i provosh kudo</span>
+            <h2>Këshilla për një<br>mendje <span>të qetë.</span></h2>
+            <p>Hapat e vegjël mund të krijojnë pak më shumë hapësirë për qetësi gjatë ditës.</p>
+            <div class="breath-art" aria-hidden="true"><span class="breath-circle"></span><span class="breath-label">Merr frymë.<br>Lëshoje.</span></div>
+          </div>
+          <ol class="calm-timeline">
+            <li class="timeline-item reveal"><span class="timeline-icon" aria-hidden="true">01</span><div><h3>Merr frymë thellë</h3><p>Ngadalëso për pak çaste dhe përqendrohu te frymëmarrja jote.</p></div></li>
+            <li class="timeline-item reveal"><span class="timeline-icon" aria-hidden="true">02</span><div><h3>Bëj një pushim nga telefoni</h3><p>Lëre ekranin mënjanë për disa minuta dhe kthehu te momenti i tanishëm.</p></div></li>
+            <li class="timeline-item reveal"><span class="timeline-icon" aria-hidden="true">03</span><div><h3>Shkruaj mendimet e tua</h3><p>Hidhi në letër pa i gjykuar. Ndonjëherë kjo i bën më të lehta për t’u kuptuar.</p></div></li>
+            <li class="timeline-item reveal"><span class="timeline-icon" aria-hidden="true">04</span><div><h3>Fol me një person të besuar</h3><p>Një bisedë e sinqertë mund të jetë fillim i mirë për të kërkuar mbështetje.</p></div></li>
+            <li class="timeline-item reveal"><span class="timeline-icon" aria-hidden="true">05</span><div><h3>Bëj diçka që të pëlqen</h3><p>Jepi vetes leje për një aktivitet të vogël që të sjell gëzim ose qetësi.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section resources-section" id="burime">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Mbështetje dhe orientim</span>
+            <h2>Burime për <span>ty.</span></h2>
+            <p>Informohu, lidhu me të tjerët dhe kërko mbështetjen që të përshtatet.</p>
+          </div>
+          <div class="resource-grid">
+            <article class="resource-card reveal"><div class="resource-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v17H6.5A2.5 2.5 0 0 1 4 17.5v-12Z" stroke="currentColor" stroke-width="1.7"/><path d="M8 7h8M8 11h7M8 15h4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>Artikuj edukativë</h3><p>Mëso rreth stresit, ankthit, emocioneve dhe mënyrave të kujdesit për veten.</p><span class="resource-tag">Lexo dhe informohu</span></article>
+            <article class="resource-card reveal"><div class="resource-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M6.6 3.5h3l1.5 4-2 1.7a15.8 15.8 0 0 0 5.7 5.7l1.7-2 4 1.5v3a2 2 0 0 1-2.2 2A17.4 17.4 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Linja dhe shërbime ndihme</h3><p>Nëse ke nevojë për mbështetje urgjente, kontakto shërbimet lokale të emergjencës ose një linjë ndihme në vendin ku ndodhesh.</p><span class="resource-tag">Mbështetje e menjëhershme</span></article>
+            <article class="resource-card reveal"><div class="resource-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-3.5-7-10V5l7-3 7 3v6c0 6.5-7 10-7 10Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 11.5a3 3 0 1 1 6 0c0 1.5-1.5 2.5-3 3.5-1.5-1-3-2-3-3.5Z" stroke="currentColor" stroke-width="1.7"/></svg></div><h3>Profesionistë të shëndetit mendor</h3><p>Psikologu, psikoterapisti ose mjeku mund të të ndihmojë të gjesh mbështetjen e duhur për ty.</p><span class="resource-tag">Kërko ndihmë profesionale</span></article>
+            <article class="resource-card reveal"><div class="resource-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M16 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2m6-10a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm6-3a4 4 0 0 1 0 7m2 2a4 4 0 0 1 2 3v1" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Organizata mbështetëse</h3><p>Grupet dhe organizatat lokale mund të ofrojnë informacion, lidhje dhe ndihmë praktike.</p><span class="resource-tag">Gjej komunitetin tënd</span></article>
+          </div>
+          <aside class="disclaimer reveal">
+            <span class="disclaimer-icon" aria-hidden="true">i</span>
+            <p><strong>Një shënim i rëndësishëm</strong><br>MindCare është një faqe informuese dhe nuk zëvendëson këshillën, vlerësimin apo trajtimin nga një profesionist i shëndetit mendor. Nëse je në rrezik të menjëhershëm, kontakto shërbimet lokale të emergjencës.</p>
+          </aside>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <a class="brand" href="#home" aria-label="MindCare, kthehu në krye">
+              <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M20 33S6 25.2 6 14.7C6 9.6 9.5 7 13.2 7c3 0 5.1 1.8 6.8 4.3C21.7 8.8 23.8 7 26.8 7 30.5 7 34 9.6 34 14.7 34 25.2 20 33 20 33Z" fill="currentColor"/><path d="M13 19.5h4l2-4 3.2 9 2.1-5H28" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span>Mind<span>Care</span></span>
+            </a>
+            <p>Një hapësirë e qetë për të mësuar, reflektuar dhe kujdesur për mirëqenien tënde.</p>
+          </div>
+          <div class="footer-links">
+            <h2>Eksploro</h2>
+            <a href="#shendeti">Shëndeti mendor</a>
+            <a href="#keshilla">Këshilla për veten</a>
+            <a href="#burime">Burime</a>
+          </div>
+    
+        </div>
+        <div class="footer-bottom"><span>© <span id="year">2026</span> MindCare. Nxenesit e 11A-TIK <3 </span><a href="#home">Me kujdes, për ty <span aria-hidden="true">↑</span></a></div>
+      </div>
+    </footer>
+  </body>
+</html>
